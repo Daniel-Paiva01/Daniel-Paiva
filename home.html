@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nirvana-Biografia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image.jpg" href="img/icon.png">
+    <meta charset="UTF-8">
+    <script>
+        function validar() {
+            var name = form1.name.value;
+            var email = form1.email.value;
+            var cpf = form1.cpf.value;
+
+            if(name == ""){
+                alert('Preencha seu nome');
+                form1.name.focus();
+                return false;
+            }
+            if(email == ""){
+                alert('Preencha seu email');
+                form1.email.focus();
+                return false;
+            }
+            if(cpf == ""){
+                alert('Preencha seu cpf');
+                form1.cpf.focus();
+                return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://assets.stickpng.com/thumbs/612a44957c7c75000443b298.png" class="img">
+            <ul class="list">
+                <li class="li"><a class="bottom" href="#sessao1">Home</a></li>
+                <li class="li"><a class="bottom" href="#sessao2">Fundação</a></li>
+                <li class="li"><a class="bottom" href="#sessao3">Obras</a></li>
+                <li class="li"><a class="bottom" href="#sessao4">Galeria</a></li>
+                <li class="contato"><a class="cntt"href="#sessao5">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+   <section id="sessao1">
+    <br><br><br><br><br>
+    <br><br>
+    <header class="header">
+        <div class="headline">
+            <h2>NIRVANA</h2>
+            <h3>Conheça a genialidade da banda, explore suas diversas músicas da época grunge e descubra uma das maiores obras da indústria musical.</h3>
+        </div>
+        <div class="head-img">
+            <img class="kurtc" src="img/cobain.jpg" height="200">
+        </div>
+        </header>
+   </section>
+
+   <section id="sessao2">
+    <br><br>
+    <div class="container-text">
+        <div class="box-1">
+            <h1 class="titulo1">Resumo</h1>
+            <h4 class="text-1">O Nirvana foi criado em 1987 pelo guitarrista e vocalista Kurt Cobain e pelo baixista Krist Novoselic, em Aberdeen, nos Estados Unidos. Logo depois, o baterista Dave Grohl se uniu ao grupo e foi formado o trio que revolucionou a cena do rock dos anos 90 e influenciou para sempre toda uma geração de fãs no mundo todo.</h4>
+            <h1 class="titulo2">Fundador</h1>
+            <h4 class="text-2">Kurt Donald cobain, Nascido em Aberdeen, na zona sul de Washington, sempre foi conhecido por ser uma criança rebelde, já que aos 7 anos, sofreu de uma separação de seus pais, na qual resultou em traumas no menino. Sua paixão por música se iniciou aos seus 14 anos, onde ganhou uma guitarra de seu tio, Kurt a usava para passar o tempo e tocar músicas que escrevera sobre sua vida. Desde então, sua paixão o inspirou a criar uma das maiores bandas grunges da história. Infelizmente, Kurt cobain no auge de sua depressão aos 27 anos tira sua vida e põe fim em uma grande época musical.</h4>
+        </div>
+        <div class="box-2">
+            <img class="recorted" src="img/image-removebg-preview.png">
+        </div>
+    </div>
+   </section>
+
+   <section id="sessao3">
+    <br><br><br><br><br>
+    <h1 class="title">Obras</h1>
+    <div class="container2">
+        <div class="box-obras1">
+            <img class="foto1" src="img/bleach.jpg">
+            <img class="foto3" src="img/in-utero.jfif">
+    </div>
+    <div>
+        <h1 class="text"><b>O primeiro álbum do nirvana, lançado em 15 de junho de 1989, não teve uma repercussão imediata, porém é lembrado nos dias de hoje como um dos álbums mais revolucionários do cenário grunge. O álbum conta com 11 músicas, sendo a mais famosa "about a girl".</b></h1>
+        <h1 class="text3"><b> Por fim, o último álbum do nirvana, denominado de "in-utero". É considerado por muitos o mais genial da banda, já que é nesse álbum que Kurt descreve perfeitamente seu psicológico na época. Composto por 12 músicas oficias, sendo a mais conhecida "Heart Shaped Box".</b></h1>
+    </div>
+    <div class="box-obras2">
+        <h1 class="text2"><b> O segundo álbum do nirvana, foi o que popularizou a banda mundialmente, conhecido até hoje como um dos álbuns mais importantes para a história da música recente. O álbum "nevermind" conta com 13 músicas e 94 faixas, sendo a mais famosa "smells like teen spirit" com mais de um bilhão de visualizações no youtube.</b></h1>
+    </div>
+    <img class="foto2" src="img/nevermind2.webp">
+   </section>
+
+   <section id="sessao4">
+    <br><br><br><br><br>
+    <h1><center>Galeria</center></h1>
+    <table>
+        <tr>
+            <td><img src="img/kurt11.jpg" class="img-organization"></td>
+            <td><img src="img/kurt12.jpg" class="img-organization"></td>
+            <td><img src="img/kurt13.jpg" class="img-organization"></td>
+            <td><img src="img/kurt14.jpeg" class="img-organization"></td>
+        </tr>
+        <tr>
+            <td><img src="img/kurt15.png" class="img-organization"></td>
+            <td><img src="img/kurt16.png" class="img-organization"></td>
+            <td><img src="img/kurt171.jpg" class="img-organization"></td>
+            <td><img src="img/kurt18.jpg" class="img-organization"></td>
+        </tr>
+    </table>
+   </section>
+
+   <section id="sessao5">
+    <br><br><br><br><br><br><br>
+    <h1><center>Contato</center></h1>
+    <div class="formulario">
+        <div class="itens">
+            <form name="form1" method="post" action="concluido.html">
+                <input type="text" placeholder="Digite seu nome" name="name" class="formss">
+                <br><br>
+                <input type="text" placeholder="Digite seu E-mail" name="email"  class="formss">
+                <br><br>
+                <input type="text" placeholder="Digite seu cpf" name="cpf" class="formss">
+                <br><br>
+                <textarea rows="10" cols="25" class="textarea"></textarea>
+                <br><br>
+                <input type="submit" onclick="return validar()" value="enviar" class="botoes">
+                <input type="reset" value="Limpar" class="botoes">
+            </form>
+        </div>
+    </div>
+   </section>
+   <hr>
+   <h5>Daniel Tertuliano 2023 - &copyTodos os direitos reservados</h5>
+   <br>
+   <h5>Trabalho Acadêmico - sem fins lucrativos</h5>
+</body>
+</html>
